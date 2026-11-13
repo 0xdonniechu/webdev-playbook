@@ -6,6 +6,10 @@ A starting list, not a standard: edit it from what reviews actually find. Flag a
 - Hand-built modal or tooltip where `<dialog>` or the Popover API fits.
 - Float or table layout, or JS measuring for what flex, grid or container queries do.
 - A JS animation of page transitions where View Transitions fit.
+- Font sizes in px, or a heading `clamp()` whose middle term is `vw` only, so the text does not grow with the user's text size (`docs/text-zoom.md`).
+- Fixed px width or height on a box that holds text, where rem, `min-height` or content sizing fits.
+- A viewport media query for a component that only depends on its own width, where a container query fits.
+- A control (button, link, badge, sticker) placed over another control, so one hides or intercepts the other at some width or text size.
 
 ## JavaScript
 - jQuery or a utility library added for something the platform now does (`fetch`, `querySelector`, `classList`, `structuredClone`).
