@@ -22,7 +22,7 @@ Rules, one skill (`webdev`), a project-rules snippet and a legacy-pattern review
 - State what is verified and what is not. A claim about a third-party tool (`modern-web-guidance`) is written only when a primary page says it; mark the rest "unverified".
 - Guidance is not a gate: the skill and the snippet steer the writer, the checklist is for the reviewer. Do not describe either as enforcement.
 - Git: English only; account `0xdonniechu` (check with `gh api user --jq .login` before any GitHub write); branches `slug`, never a push to `main`; this repo is not Ambysto's, so no Ambysto account, PR or memory workflow.
-- A merge to `main` publishes nothing until a remote and Pages or a release exist; say so here when that changes.
+- The repo is public on GitHub (`0xdonniechu/webdev-playbook`): a merge to `main` publishes its source (no Pages, no release). Ask the owner before a merge unless they asked for this change to be published.
 
 ## Session state
 - Work in progress lives in `HANDOFF.md` (gitignored). If it exists at session start, read it first.
