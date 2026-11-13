@@ -18,7 +18,7 @@ Guidance, not a gate: use it when the owner asks for a page whose layout geometr
 
 ## Tolerances that worked (example)
 - Block height: +-3% or 24 px, whichever is larger. Block top and page height: +-1% or 24 px.
-- Block x and width: +-12 px and +-4%. Thin blocks that are components themselves (a header, a ticker): +-4% on height too.
+- Block x: +-12 px. Block width: +-4% with a 2 px floor. Thin blocks that are components themselves (a header, a ticker): +-4% on height too.
 - Component position (x and y) +-12 px; component width and height +-4% with a 2 px floor on the allowed difference.
 - Heading font size +-2%. Breakpoints: the same values. Blocks: the same list in the same order.
 
