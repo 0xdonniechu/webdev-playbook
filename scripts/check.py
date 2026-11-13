@@ -11,6 +11,8 @@ REQUIRED = [
     "templates/web-project-rules.md",
     "docs/legacy-patterns-checklist.md",
     "docs/modern-web-guidance.md",
+    "docs/layout-parity.md",
+    "docs/text-zoom.md",
 ]
 HEADINGS = {
     "CLAUDE.md": ["## What it does", "## Verify", "## HARD", "## MEDIUM", "## EASY", "## Rules"],

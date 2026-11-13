@@ -9,6 +9,8 @@ It sits beside [`coding-playbook`](https://github.com/0xdonniechu/coding-playboo
 - `templates/web-project-rules.md`: lines to paste into a web repo's `CLAUDE.md` (baseline target, guidance tool, review rule).
 - `docs/legacy-patterns-checklist.md`: what a reviewer looks for in a web diff.
 - `docs/modern-web-guidance.md`: what Chrome's Modern Web Guidance is, and what is and is not verified about it.
+- `docs/layout-parity.md`: matching a reference layout's geometry (numbers-only snapshot, component map, tolerances, bite tests) while media and copy stay yours.
+- `docs/text-zoom.md`: sizes in rem, the clamp pitfall, container queries, and a text-zoom check at 150% and 200% root sizes.
 - `scripts/check.py`: `python3 scripts/check.py`.
 
 ## Status

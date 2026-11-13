@@ -23,6 +23,10 @@ Guidance, not enforcement: it steers the writer and gives the reviewer a list. N
 - New controls get an accessible name, a keyboard path and visible focus.
 - Do not add a dependency or a polyfill for something the baseline already has.
 
+## Layout
+- When the owner asks to match a reference layout (geometry only, never its assets or copy), follow `docs/layout-parity.md` of webdev-playbook.
+- When writing layout CSS (and before handing over), follow `docs/text-zoom.md`: sizes in rem, no vw-dominated clamp on headings, and run or add a text-zoom check at 150% and 200% root sizes.
+
 ## Before handing over
 - Walk the diff against `docs/legacy-patterns-checklist.md` of webdev-playbook (or the project's copy). List each hit and fix it or say why it stays.
 - Run the repo's Verify. Write "not run: <reason>" for any accessibility, performance or cross-browser check you did not run.
